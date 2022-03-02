@@ -5,7 +5,7 @@ pipeline {
 
         registry = "Dev-tanjiro/Project2.git" 
 
-        registryCredential = 'dev113621' 
+        registryCredential = 'dev-dockerhub' 
 
         dockerImage = '' 
 
