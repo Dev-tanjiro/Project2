@@ -3,9 +3,9 @@ pipeline {
 
     environment { 
 
-        registry = "YourDockerhubAccount/YourRepository" 
+        registry = "Dev-tanjiro/Project2.git" 
 
-        registryCredential = 'dockerhub_id' 
+        registryCredential = 'dev113621' 
 
         dockerImage = '' 
 
@@ -19,7 +19,7 @@ pipeline {
 
             steps { 
 
-                git 'https://github.com/YourGithubAccount/YourGithubRepository.git' 
+                git 'https://github.com/Dev-tanjiro/Project2.git' 
 
             }
 
