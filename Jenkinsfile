@@ -2,7 +2,7 @@ node {
 
     checkout scm
 
-    docker.withRegistry('https://login.docker.com/u/login','dev-docker') {
+    docker.withRegistry('dev113621','dev-docker') {
 
         def customImage = docker.build("miltonc/dockerwebapp")
 
